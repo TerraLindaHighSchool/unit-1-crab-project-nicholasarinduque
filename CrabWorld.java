@@ -60,5 +60,12 @@ public class CrabWorld extends World
         worm4.setLocation(511,232);
         worm8.setLocation(478,173);
         worm8.setLocation(492,204);
+        worm.setLocation(481,324);
+        worm5.setLocation(483,394);
+        worm6.setLocation(451,467);
+        worm.setLocation(382,532);
+        worm8.setLocation(306,459);
+        worm2.setLocation(532,319);
+        worm8.setLocation(416,513);
     }
 }
