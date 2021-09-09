@@ -1,16 +1,17 @@
-import greenfoot.*;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * This class defines a crab. Crabs live on the beach.
+ * Write a description of class dolfin here.
+ * 
  * @author Nicholas Arinduque
- * @version 8/26/2021
+ * @version 9/9/2021
  */
-public class Crab extends Actor
+public class dolfin extends Actor
 {
     // This method repeats the following actions 
     public void act()
     {
-        move(3);
+        move(5);
         turnAtEdge();
         checkKeyPress();
         onCollision();
@@ -47,13 +48,13 @@ public class Crab extends Actor
     //Check for collisions with other objects 
     private void onCollision()
     {
-        if(isTouching(bomb.class))
+        if(isTouching(fish.class))
         {
-            removeTouching(bomb.class);
+            removeTouching(fish.class);
             Greenfoot.playSound("slurp.wav");
             
             //Winning the game
-            if(getWorld().getObjects(bomb.class).size() == 0)
+            if(getWorld().getObjects(fish.class).size() == 0)
             {
                 Greenfoot.setWorld(new WinSplash());
                 Greenfoot.playSound("fanfare.wav");
@@ -62,7 +63,7 @@ public class Crab extends Actor
             }
         }
         
-        if(isTouching(Lobster.class))
+        if(isTouching(bomb.class))
         {
             Greenfoot.playSound("au.wav");
             Greenfoot.stop();
