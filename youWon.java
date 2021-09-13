@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class WinSplash here.
+ * Write a description of class youWon here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Nicholas Arinduque
+ * @version 9/13/2021
  */
-public class WinSplash extends World
+public class youWon extends World
 {
 
     /**
-     * Constructor for objects of class WinSplash.
+     * Constructor for objects of class youWon.
      * 
      */
-    public WinSplash()
+    public youWon()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(560, 560, 1); 

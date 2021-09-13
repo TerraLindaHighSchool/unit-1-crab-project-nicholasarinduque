@@ -56,7 +56,7 @@ public class dolfin extends Actor
             //Winning the game
             if(getWorld().getObjects(fish.class).size() == 0)
             {
-                Greenfoot.setWorld(new WinSplash());
+                Greenfoot.setWorld(new youWon());
                 Greenfoot.playSound("fanfare.wav");
                 Greenfoot.stop();
 
