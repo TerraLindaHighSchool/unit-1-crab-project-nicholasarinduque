@@ -51,7 +51,7 @@ public class dolfin extends Actor
         if(isTouching(fish.class))
         {
             removeTouching(fish.class);
-            Greenfoot.playSound("slurp.wav");
+            Greenfoot.playSound("dolphinchirping.wav");
             
             //Winning the game
             if(getWorld().getObjects(fish.class).size() == 0)

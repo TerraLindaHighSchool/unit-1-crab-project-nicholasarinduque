@@ -24,4 +24,7 @@ public class bomb extends Actor
             turn(180);
         }
     }
+    
+
 }
+
