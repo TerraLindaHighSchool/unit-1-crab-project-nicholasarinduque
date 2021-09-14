@@ -48,11 +48,11 @@ public class OceanWorld extends World
         addObject(fish9,536,324);
         fish fish10 = new fish();
         addObject(fish10,501,60);
-        bomb bomb = new bomb();
+        Bomb bomb = new Bomb();
         addObject(bomb,328,309);
-        bomb bomb2 = new bomb();
+        Bomb bomb2 = new Bomb();
         addObject(bomb2,379,192);
-        bomb bomb3 = new bomb();
+        Bomb bomb3 = new Bomb();
         addObject(bomb3,128,344);
         bomb.setLocation(399,481);
         bomb2.setLocation(476,124);

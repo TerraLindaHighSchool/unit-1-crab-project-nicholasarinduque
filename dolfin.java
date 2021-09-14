@@ -63,7 +63,7 @@ public class dolfin extends Actor
             }
         }
         
-        if(isTouching(bomb.class))
+        if(isTouching(Bomb.class))
         {
             Greenfoot.playSound("au.wav");
             Greenfoot.stop();

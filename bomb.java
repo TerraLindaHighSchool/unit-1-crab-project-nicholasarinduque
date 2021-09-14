@@ -6,8 +6,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Nicholas Arinduque
  * @version 9/9/2021
  */
-public class bomb extends Actor
+public class Bomb extends Actor
 {
+    public Bomb()
+    {
+        turn(90);
+    }
      // This method repeats the following actions 
     public void act()
     {
@@ -20,10 +24,10 @@ public class bomb extends Actor
     {
         if(isAtEdge())
         {
-            turn(90); 
-            turn(180);
+            turn(270); 
         }
     }
+
     
 
 }
